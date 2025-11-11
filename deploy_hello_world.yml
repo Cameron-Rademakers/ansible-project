@@ -15,6 +15,6 @@
       command: docker build -t website/home/devasc/Documents/Case_Study/andible-project/
 
   -name: Run Dockerfile
-  command: docker run -t -d -p 8098:80 --name hello website
+    command: docker run -t -d -p 8098:80 --name hello website
 
   
